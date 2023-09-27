@@ -1,0 +1,69 @@
+.btn {
+    cursor: pointer;
+}
+
+.action-primary {
+    color: #1b1a1a;
+}
+
+.bg-action-primary {
+    background-color: rgb(69, 128, 238);
+}
+
+.b--action-primary {
+    border-color: #000;
+}
+
+.action-secondary {
+    color: #fff;
+}
+
+.bg-action-secondary {
+    background-color: #333;
+}
+
+.b--action-secondary {
+    border-color: #000;
+}
+
+.action-positive {
+    color: #1b1a1a;
+}
+
+.bg-action-positive {
+    background-color: rgb(96, 223, 96);
+}
+
+.b--action-positive {
+    border-color: #000;
+}
+
+.action-negative {
+    color: #fff;
+}
+
+.bg-action-negative {
+    background-color: rgb(216, 58, 58);
+}
+
+.b--action-negative {
+    border-color: #000;
+}
+
+.size-action-big {
+    width: 200px;
+    height: 60px;
+    font-size: 1.4rem;
+}
+
+.size-action-medium {
+    width: 150px;
+    height: 45px;
+    font-size: 1.2rem;
+}
+
+.size-action-small {
+    width: 100px;
+    height: 30px;
+    font-size: 1rem;
+}
