@@ -1,3 +1,4 @@
+import Flex from '../flex/Flex'
 import './styles.css'
 
 const Select = (props) => {
@@ -7,12 +8,13 @@ const Select = (props) => {
     const fSize = `fSize-action-${props.fSize}`
 
     return (
-        <div className='selectDS'>
-            <label className={`${color} ${fSize}`} for={props.id}>{props.labelText}</label>
+        <Flex direction={props.direction}>
+            <label className={`${color} ${fSize} selectLabel`} htmlFor={props.id}>{props.labelText}</label>
             <select className={`${color} ${size} ${fSize} w4 br2`} id={props.id}>
+                <option value=''></option>
                 {props.children}
             </select>
-        </div>
+        </Flex>
         
     )
 }

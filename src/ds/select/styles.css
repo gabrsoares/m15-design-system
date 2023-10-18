@@ -1,8 +1,11 @@
 .selectDS {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.selectLabel {
+    margin-right: .5rem;
 }
 
 .color-action-primary {

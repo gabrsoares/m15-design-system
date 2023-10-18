@@ -41,17 +41,26 @@
 .size-action-big {
     width: 200px;
     height: 60px;
-    font-size: 1.4rem;
 }
 
 .size-action-medium {
     width: 150px;
     height: 45px;
-    font-size: 1.2rem;
 }
 
 .size-action-small {
     width: 100px;
     height: 30px;
+}
+
+.fSize-action-big {
+    font-size: 1.4rem;
+}
+
+.fSize-action-medium {
+    font-size: 1.2rem;
+}
+
+.fSize-action-small {
     font-size: 1rem;
 }
