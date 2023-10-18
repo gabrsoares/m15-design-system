@@ -6,7 +6,7 @@ function App() {
     <div className="App">
         <Flex direction='column' align='flex-start' justify='center'>
           <Input direction='column' label='Nome' id='nome'/>
-          <Input direction='column' label='Email' id='email'/>
+          <Input type='text' direction='column' label='Email' id='email'/>
           <Select direction='column' labelText='Gênero:'>
             <option>Masculino</option>
             <option>Feminino</option>

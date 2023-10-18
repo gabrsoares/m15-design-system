@@ -72,7 +72,7 @@ Possui um componente Flex dentro dele, use a documentação do [Flex](#flex) par
 
 Exemplo:
 
-### `<Input direction='column' label='Nome' fSize='small' size='small' id='nome'/>`
+### `<Input type='text' direction='column' label='Nome' fSize='small' size='small' id='nome'/>`
 
 
 

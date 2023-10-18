@@ -10,7 +10,7 @@ const Input = (props) => {
   return (
     <Flex direction={props.direction}>
         <label className={`${fSize} inputLabel`} htmlFor={props.setId}>{props.label}</label>
-        <input className={`${fSize} ${size}`} id={props.id} placeholder={props.placeholder}></input>
+        <input className={`${fSize} ${size}`} id={props.id} type={props.type} placeholder={props.placeholder}></input>
     </Flex>
   )
 }
