@@ -1,5 +1,6 @@
 .btn {
     cursor: pointer;
+    text-align: center;
 }
 
 .action-primary {
@@ -38,29 +39,18 @@
     border-color: #000;
 }
 
-.size-action-big {
-    width: 200px;
+.bSize-action-big {
+    width: 220px;
     height: 60px;
 }
 
-.size-action-medium {
-    width: 150px;
+.bSize-action-medium {
+    width: 170px;
     height: 45px;
 }
 
-.size-action-small {
-    width: 100px;
+.bSize-action-small {
+    width: 120px;
     height: 30px;
 }
 
-.fSize-action-big {
-    font-size: 1.4rem;
-}
-
-.fSize-action-medium {
-    font-size: 1.2rem;
-}
-
-.fSize-action-small {
-    font-size: 1rem;
-}

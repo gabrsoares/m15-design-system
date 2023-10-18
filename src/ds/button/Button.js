@@ -8,7 +8,7 @@ const Button = (props) => {
     const color = `action-${props.variation}`
     const bgColor = `bg-action-${props.variation}`
     const bColor = `b--action-${props.variation}`
-    const bSize = `size-action-${props.size}`
+    const bSize = `bSize-action-${props.size}`
 
     const delay = (ms) => new Promise(
       resolve => setTimeout(resolve, ms)
